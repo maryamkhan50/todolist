@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-image:url(https://cdn.pixabay.com/photo/2015/08/01/13/20/shield-870246_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+
+    
+
+}  
+   
+.main{
+
+    display: table;
+    margin: 0 auto;
+    
+}
+.child{
+    display: table-cell;
+    vertical-align: middle;
+    font-style: italic;
+
+    
+}
+.child input{
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.child button{
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.child button:hover,#delet:hover,#edit:hover{
+cursor: pointer;
+transition: 0.5s;
+}
+#delet{
+background-color: rgb(66, 116, 81);
+color: white;
+border: none;
+margin-left: 40px;
+padding: 5px;
+border-radius: 10px;
+}
+#edit{
+    background-color: rgb(94, 75, 39);
+    padding: 5px;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* 
+@media screen and  (min-width: 576px) { .main{width: 100%;} }
+@media screen and  (min-width: 768px) { .main{width: 100%;} }
+@media screen and  (min-width: 992px) { .main{width: 100%;} }
+@media screen and  (min-width: 1200px) { .main{width: 100%;} } */
+#list{
+    text-decoration-color: ghostwhite;
+}
+#list li{
+    font-size: 20px;
+    color: white;
+}
+.lis{
+    text-decoration-color: ghostwhite ;
+}
